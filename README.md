@@ -10,3 +10,13 @@ Please have a secrets.json file in the parent directory. With the following cont
   }
 }
 ```
+
+install dependencies
+```
+make
+```
+
+to deploy refdata/metadata to the local server
+```
+make deploy-dev-all
+```
