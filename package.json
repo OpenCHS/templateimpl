@@ -1,0 +1,23 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "description": "Template implementation of OpenCHS",
+  "main": "Makefile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenCHS/templateimpl.git"
+  },
+  "scripts": {
+    "test": "echo 'no test'"
+  },
+  "keywords": [
+    "openchs",
+    "implementation"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "openchs-idi": "github:openchs/openchs-idi#3e94730e090c0e1bb53c39406bf7604821721dc4",
+    "rules-config": "github:openchs/rules-config#1a917a43b68d998783a70ef026be11f2d700efe8",
+    "webpack": "^4.12.0"
+  }
+}
