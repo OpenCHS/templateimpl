@@ -3,7 +3,7 @@ const IDI = require("openchs-idi");
 
 module.exports = IDI.configure({
     "chs-admin": "admin",
-    "org-admin": "admin@myorganisation",
+    "org-admin": "admin@templateorg",
     "secrets": "../secrets.json",
     "files": {
         "adminUsers": {
@@ -18,11 +18,11 @@ module.exports = IDI.configure({
         "concepts": [],
         "forms": [],
         "formMappings": [],
-        "addressLevelTypes": [],
-        "locations": [],
-        "catchments": [],
+        "addressLevelTypes": ["addressLevelTypes.json"],
+        "locations": ["locations.json"],
+        "catchments": ["catchments.json"],
         "users": {
-            "dev": [],
+            "dev": ["./users/dev-user.json"],
             "staging": [],
             "uat": []
         },

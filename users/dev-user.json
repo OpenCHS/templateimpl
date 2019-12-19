@@ -1,0 +1,18 @@
+[
+  {
+    "uuid": "e1733047-e2c8-46a6-9c1d-b4f34f44ac7b",
+    "name": "dev@templateorg",
+    "password": "password",
+    "email": "openchssupport+templateorg@samanvayfoundation.org",
+    "phoneNumber": "+919999999999",
+    "organisationUUID": "7f84e96f-2517-4b00-9098-a86ad696bef3",
+    "catchmentUUID": "6b8ebdff-613c-4bcf-86cc-8b8b95711d3c",
+    "operatingIndividualScope": "ByCatchment",
+    "isAdmin": false,
+    "isOrgAdmin": false,
+    "settings": {
+      "trackLocation": false,
+      "locale": "en"
+    }
+  }
+]

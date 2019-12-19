@@ -1,0 +1,16 @@
+{
+  "organisation": "Template Organisation",
+  "catchments": [
+    {
+      "name": "Dummy",
+      "uuid": "6b8ebdff-613c-4bcf-86cc-8b8b95711d3c",
+      "locations": [
+        {
+          "uuid": "a9a03564-ef20-4223-bf61-b9559116cbe5"
+        }
+      ],
+      "type": "dummy",
+      "voided": false
+    }
+  ]
+}
